@@ -1,1 +1,40 @@
-/*creation of style*/
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto";
+
+   
+}
+.Logo{
+    color: #F9FAf8;
+    font-size: 24px;
+}
+.header-div{
+    display: flex;
+    justify-content: space-between;
+}
+.headerlinks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    
+
+}
+.headerlinks a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.content-div{
+  
+    background-color: red;
+    
+}
+.footer-div,.header-div{
+
+    background-color: #1f2937;
+}
+
+
