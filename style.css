@@ -7,11 +7,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
  }
- .container{
-    display: flex;
-    flex-direction: column;
 
- }
 .Logo{
     color: #F9FAf8;
     font-size: 24px;
@@ -37,8 +33,11 @@ body {
     
 }
 .footer-div,.header-div{
-
+    padding: 16px;
     background-color: #1f2937;
+}
+.footer-div{
+    text-align: center;
 }
 
 
